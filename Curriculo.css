@@ -1,0 +1,169 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 620px;
+    height: 777px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #b19c9c;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile-img {
+    margin-bottom: 40px; 
+}
+
+.profile-img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #f5f5f5;
+}
+.sidebar a {
+    color: white; 
+}
+.sidebar a:hover {
+    color: #333;}
+
+.Softwares h3 {
+    margin-top: 85px;
+    text-align: left;
+    text-decoration:underline; 
+}
+.Softwares li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+.main-content {
+    padding: 20px;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 55px;
+}
+
+
+.section {
+    margin-bottom: 20px;
+}
+.section a {
+    color: #9f8585;
+    text-decoration: none; 
+}
+.section a:hover {
+    color: #333;
+ }
+    
+.section h3 {
+    font-size: 18px;
+    color: #9f8585;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a89090;
+    display: inline-block;
+    font-weight:bold;
+}
+
+
+.experiencia, .educacao {
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+
+.experiencia h4, .educacao h4 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 10px; }
+
+.experiencia p, .educacao p {
+    font-size: 15px;
+    color: #7d6d6d;
+    margin-left: 10px;
+}
+.habilidades {
+    margin-top: 50px;
+
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.skills li {
+    list-style: none;
+    background-color: #b19c9c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+/* Contato */
+.contato p {
+    font-size: 14px;
+    color: #9f8585;
+}
+.educacao h4 a {
+    color: #333;
+}
+.educacao h4 a:hover{
+    color: #9f8585;
+}
+
+.download-btn {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    padding: 10px 20px;
+    background-color: #b19c9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #9f8585;
+}
